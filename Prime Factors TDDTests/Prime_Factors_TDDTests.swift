@@ -9,12 +9,12 @@ import XCTest
 @testable import Prime_Factors_TDD
 
 final class Prime_Factors_TDDTests: XCTestCase {
-    func testGivenInvalidInputWhenGetPrimeFactorsReturnNeg1() {
+    func testGivenInvalidInputWhenGetPrimeFactorsReturnEmptyArray() {
         let calculator = Calculator()
         
         let sample = 0
         
-        XCTAssertEqual(calculator.getPrimeFactors(of: sample), [-1])
+        XCTAssertEqual(calculator.getPrimeFactors(of: sample), [])
     }
     
     func testGivenValidInput2WhenGetPrimeFactorsReturn2() {
@@ -22,6 +22,14 @@ final class Prime_Factors_TDDTests: XCTestCase {
         
         let sample = 2
         
-        XCTAssertEqual(calculator.getPrimeFactors(of: 2), [2])
+        XCTAssertEqual(calculator.getPrimeFactors(of: sample), [2])
+    }
+    
+    func testGivenValidInput4WhenGetPrimeFactorsReturn22() {
+        let calculator = Calculator()
+        
+        let sample = 4
+        
+        XCTAssertEqual(calculator.getPrimeFactors(of: sample), [2,2])
     }
 }
