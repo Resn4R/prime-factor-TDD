@@ -32,4 +32,12 @@ final class Prime_Factors_TDDTests: XCTestCase {
         
         XCTAssertEqual(calculator.getPrimeFactors(of: sample), [2,2])
     }
+    
+    func testGivenValidInput12WhenGetPrimeFactorsReturn223() {
+        let calculator = Calculator()
+        
+        let sample = 12
+        
+        XCTAssertEqual(calculator.getPrimeFactors(of: sample), [2,2,3])
+    }
 }
