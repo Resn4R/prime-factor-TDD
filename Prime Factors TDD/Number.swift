@@ -9,6 +9,6 @@ import Foundation
 
 struct Calculator {
     func getPrimeFactors(of number: Int) -> [Int] {
-        [-1]
+        number < 1 ? [-1]: [number]
     }
 }
