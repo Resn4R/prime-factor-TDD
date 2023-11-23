@@ -14,6 +14,7 @@
 		4FD557B02B0F99D20063A9E2 /* Prime_Factors_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD557AF2B0F99D20063A9E2 /* Prime_Factors_TDDTests.swift */; };
 		4FD557BA2B0F99D20063A9E2 /* Prime_Factors_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD557B92B0F99D20063A9E2 /* Prime_Factors_TDDUITests.swift */; };
 		4FD557BC2B0F99D20063A9E2 /* Prime_Factors_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD557BB2B0F99D20063A9E2 /* Prime_Factors_TDDUITestsLaunchTests.swift */; };
+		4FD557C92B0F99FB0063A9E2 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD557C82B0F99FB0063A9E2 /* Number.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4FD557B52B0F99D20063A9E2 /* Prime Factors TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prime Factors TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD557B92B0F99D20063A9E2 /* Prime_Factors_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_Factors_TDDUITests.swift; sourceTree = "<group>"; };
 		4FD557BB2B0F99D20063A9E2 /* Prime_Factors_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_Factors_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FD557C82B0F99FB0063A9E2 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4FD5579E2B0F99CF0063A9E2 /* Prime_Factors_TDDApp.swift */,
 				4FD557A02B0F99CF0063A9E2 /* ContentView.swift */,
+				4FD557C82B0F99FB0063A9E2 /* Number.swift */,
 				4FD557A22B0F99D20063A9E2 /* Assets.xcassets */,
 				4FD557A42B0F99D20063A9E2 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				4FD557A12B0F99CF0063A9E2 /* ContentView.swift in Sources */,
 				4FD5579F2B0F99CF0063A9E2 /* Prime_Factors_TDDApp.swift in Sources */,
+				4FD557C92B0F99FB0063A9E2 /* Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
